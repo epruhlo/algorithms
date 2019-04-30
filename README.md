@@ -1,4 +1,4 @@
 # algorithms
 
 
-This repo is dedicated to the Sedgewick's algorithms course on Coursera
+This repo contains coding exercises for Coursera Algorithms course by Robert Sedgewick and Kevin Wayne.
