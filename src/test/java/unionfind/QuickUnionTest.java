@@ -21,6 +21,12 @@ public class QuickUnionTest {
         testUnionFind(target);
     }
 
+    @Test
+    public void testWeightedQuickFind() {
+        UnionFind target = new WeightedQuickUnion(size);
+        testUnionFind(target);
+    }
+
     private void testUnionFind(UnionFind target) {
         target.union(3,4);
         Assert.assertTrue(target.connected(3,4));

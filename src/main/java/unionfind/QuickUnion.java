@@ -18,7 +18,7 @@ public class QuickUnion implements UnionFind {
         id[root(p)] = root(q);
     }
 
-    private int root(int item){
+    private int root(int item) {
         if (id[item] == item) {
             return item;
         }
